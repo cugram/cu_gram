@@ -1,0 +1,22 @@
+body {
+margin-top:40px;
+margin-right:350px;
+margin-left:60px;
+background-color: darkslategrey;
+color: #ffffcc;
+font-size: 1.1em;
+}
+h1 {
+    color: coral;
+}
+#intro {
+    font-size: 1.3em;
+}
+.colorful {
+    color: orange;
+}
+.baile {
+  color: yellow;
+  text-decoration: none;
+  font-size: 30px;
+}

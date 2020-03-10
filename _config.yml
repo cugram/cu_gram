@@ -1,0 +1,9 @@
+markdown: kramdown
+baseurl: /joe
+exclude: [README.md]
+
+collections:
+  focail:
+    output: true
+  text:
+    output: true
