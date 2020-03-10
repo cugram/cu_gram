@@ -1,5 +1,5 @@
 markdown: kramdown
-baseurl: /joe
+baseurl: /cu_gram
 exclude: [README.md]
 
 collections:
