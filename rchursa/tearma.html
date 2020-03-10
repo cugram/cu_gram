@@ -1,0 +1,30 @@
+---
+title: Réchúrsa
+layout: liosta
+---
+<!DOCTYPE html>
+<html lang="ga" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cú Gramadaí</title>
+    <style media="screen">
+    body{
+      margin:50px 50px 75px;
+
+    }
+      a{
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+<h2>Réchúrsa Gramadaí</h2>
+<h3>Na Ranna Cainte</h3>
+{% for item in site.data.gramtearma %}
+<ul>
+	<li>{{ item.ainm }} - {{ item.eolas}} - {{
+		item.samplai}}</li>
+</ul>
+  {% endfor %}
+  </body>
+</html>
