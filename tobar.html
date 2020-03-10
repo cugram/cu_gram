@@ -1,0 +1,27 @@
+---
+title: Tobar
+layout: liosta
+---
+<!DOCTYPE html>
+<html lang="ga" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cú Gramadaí</title>
+    <style media="screen">
+    body{
+      margin:50px 50px 75px;
+
+    }
+      a{
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+{% for item in site.data.tobar %}
+<ul>
+	<li>{{ item.leabhar }}</li>
+</ul>
+  {% endfor %}
+  </body>
+</html>
